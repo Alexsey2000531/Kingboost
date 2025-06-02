@@ -1,0 +1,54 @@
+@use '../../vars' as *;
+
+.header {
+  max-width: 1440px;
+  min-height: 64px;
+  background-color: $shared;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 21px;
+  padding-bottom: 12px;
+}
+
+.gameSelect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  width: 171px;
+  height: 36px;
+  font-family: 'Arial', sans-serif;
+  border-radius: 8px;
+  padding: 8px 6px;
+  background: rgb(47, 47, 47);
+  cursor: pointer;
+}
+
+.gameName {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  color: rgb(246, 248, 250);
+}
+
+.region {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+  color: rgb(171, 171, 178);
+}
+
+.arrow {
+  color: white;
+  font-size: 11px;
+}
+
+.arrowActive {
+  color: white;
+  font-size: 10px;
+  transform: rotate(90deg);
+}

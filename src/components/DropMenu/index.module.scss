@@ -1,0 +1,55 @@
+@use '../../vars' as *;
+
+.dropMenu {
+  background: $shared;
+  position: absolute;
+  max-width: 591px;
+  max-height: 423px;
+  left: 162px;
+  top: 90px;
+  color: white;
+  padding: 15px 54px 40px 14px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  box-shadow: 0px 21px 73px 0px rgba(0, 0, 0, 0.79);
+}
+
+.gameList {
+  display: flex;
+  flex-direction: column;
+  width: 211px;
+  background: rgb(35, 35, 36);
+  list-style: none;
+  margin: 0;
+}
+
+.title {
+  font-size: 14px;
+  font-family: 'Proxima Nova';
+  font-weight: 600;
+  line-height: 20px;
+  color: rgb(246, 248, 250);
+  margin-bottom: 16px;
+}
+
+.gameItem {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  padding: 7px 16px;
+  border-radius: 4px;
+  background: rgb(47, 47, 47);
+}
+
+.gameButton {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.arrow {
+      width: 6px;
+      height: 3px;
+}
