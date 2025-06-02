@@ -1,55 +1,30 @@
 [
   {
     "id": 1,
-    "name": "World of Warcraft",
-    "services": [{ "name": "Boosting", "options": ["Boosting arena 2v2", "Boosting arena 3v3"] }]
+    "name": "World of Warcraft"
   },
   {
     "id": 2,
-    "name": "Destiny 2",
-    "services": [
-      { "name": "PvP", "options": ["arena 2v2", "arena 3v3"] },
-      { "name": "Mounts", "options": ["Legendary", "Epic"] }
-    ]
+    "name": "Destiny 2"
   },
   {
     "id": 3,
-    "name": "Apex Legends 2",
-    "services": [
-      { "name": "PvP", "options": ["arena 2v2", "arena 3v3"] },
-      { "name": "Mounts", "options": ["Legendary", "Epic"] }
-    ]
+    "name": "Apex Legends 2"
   },
   {
     "id": 4,
-    "name": "Genshin Impact",
-    "services": [
-      { "name": "Gmaei", "options": ["arena 2v2", "arena 3v3"] },
-      { "name": "Oweod", "options": ["Legendary", "Epic"] }
-    ]
+    "name": "Genshin Impact"
   },
   {
     "id": 5,
-    "name": "Destiny 2",
-    "services": [
-      { "name": "PvP", "options": ["arena 2v2", "arena 3v3"] },
-      { "name": "Mounts", "options": ["Legendary", "Epic"] }
-    ]
+    "name": "Destiny 2"
   },
   {
     "id": 6,
-    "name": "Genshin Impact",
-    "services": [
-      { "name": "Gmaei", "options": ["arena 2v2", "arena 3v3"] },
-      { "name": "Oweod", "options": ["Legendary", "Epic"] }
-    ]
+    "name": "Genshin Impact"
   },
   {
     "id": 7,
-    "name": "Apex Legends 2",
-    "services": [
-      { "name": "PvP", "options": ["arena 2v2", "arena 3v3"] },
-      { "name": "Mounts", "options": ["Legendary", "Epic"] }
-    ]
+    "name": "Apex Legends 2"
   }
 ]

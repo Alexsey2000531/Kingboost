@@ -1,11 +1,13 @@
 @use '../../vars' as *;
 
 .dropMenu {
+  display: flex;
+  gap: 20px;
   background: $shared;
   position: absolute;
-  max-width: 591px;
+  max-width: 400px;
   max-height: 423px;
-  left: 162px;
+  left: 75px;
   top: 90px;
   color: white;
   padding: 15px 54px 40px 14px;
@@ -14,11 +16,18 @@
   box-shadow: 0px 21px 73px 0px rgba(0, 0, 0, 0.79);
 }
 
+.leftBar {
+  padding: 15px 14px;
+}
+
+.rightBar {
+  padding: 15px 54px 53px 0px;
+}
+
 .gameList {
   display: flex;
   flex-direction: column;
   width: 211px;
-  background: rgb(35, 35, 36);
   list-style: none;
   margin: 0;
 }
@@ -34,12 +43,12 @@
 
 .gameItem {
   position: relative;
+  width: 190px;
+  height: 34px;
   display: flex;
   justify-content: space-between;
-  gap: 48px;
+  align-items: center;
   padding: 7px 16px;
-  border-radius: 4px;
-  background: rgb(47, 47, 47);
 }
 
 .gameButton {
@@ -50,6 +59,66 @@
 }
 
 .arrow {
-      width: 6px;
-      height: 3px;
+  width: 6px;
+}
+
+.gameItemActive {
+  position: relative;
+  width: 190px;
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 16px;
+  border-radius: 4px;
+  background: rgb(47, 47, 47);
+  color: rgb(122, 89, 255);
+}
+
+.serviceHeader {
+  margin-bottom: 15px;
+}
+
+.serviceHeader:first-child {
+  margin-bottom: 7px;
+}
+
+.serviceName {
+  color: rgb(246, 248, 250);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.optionItem {
+  position: relative;
+  color: rgb(246, 248, 250);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 14px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.optionActiveItem {
+  position: relative;
+  color: rgb(122, 89, 255);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 14px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.optionItem::before {
+  position: absolute;
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: rgb(165, 169, 180);
+  border-radius: 50%;
+  top: 8px;
+  margin-left: -9px;
 }
