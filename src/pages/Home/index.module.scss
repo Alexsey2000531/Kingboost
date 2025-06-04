@@ -1,0 +1,55 @@
+.section {
+  min-height: 978px;
+}
+
+.GameBoostPromo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 63px;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 63px;
+  color: white;
+}
+
+.description {
+  max-width: 600px;
+  color: rgb(165, 169, 180);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
+}
+
+.cardList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 23px;
+  margin-top: 54px;
+}
+
+.ShowButton {
+  display: block;
+  margin: 0 auto;
+  min-width: 152px;
+  height: 56px;
+  padding: 14px 35px 14px 35px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgb(99, 2, 216) 10.526%, rgb(80, 48, 206) 95.395%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  color: rgb(246, 248, 250);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}

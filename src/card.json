@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "World of Craft",
+    "src": "/src/assets/GameImage/game-image-2.svg",
+    "count": 10
+  },
+  {
+    "id": 2,
+    "name": "OceanHorn",
+    "src": "/src/assets/GameImage/game-image-3.svg",
+    "count": 1
+  },
+  {
+    "id": 3,
+    "name": "BulletStorm",
+    "src": "/src/assets/GameImage/game-image-1.svg",
+    "count": 10
+  },
+  {
+    "id": 4,
+    "name": "Apex Legend",
+    "src": "/src/assets/GameImage/game-image-4.svg",
+    "count": 21
+  },
+  {
+    "id": 5,
+    "name": "World of Craft",
+    "src": "/src/assets/GameImage/game-image-2.svg",
+    "count": 10
+  },
+  {
+    "id": 6,
+    "name": "BulletStorm",
+    "src": "/src/assets/GameImage/game-image-1.svg",
+    "count": 8
+  },
+  {
+    "id": 7,
+    "name": "OceanHorn",
+    "src": "/src/assets/GameImage/game-image-3.svg",
+    "count": 7
+  },
+  {
+    "id": 8,
+    "name": "Apex Legend",
+    "src": "/src/assets/GameImage/game-image-4.svg",
+    "count": 4
+  }
+]
