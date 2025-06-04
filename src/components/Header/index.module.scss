@@ -1,7 +1,12 @@
 @use '../../vars' as *;
 
+* {
+  box-sizing: border-box;
+}
+
 .header {
-  max-width: 1440px;
+  width: 100%;
+  min-width: 1240px;
   min-height: 64px;
   background-color: $shared;
 }
@@ -9,7 +14,7 @@
 .headerContent {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 23px;
   padding-top: 21px;
   padding-bottom: 12px;
 }
@@ -19,7 +24,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 4px;
-  width: 171px;
+  min-width: 190px;
   height: 36px;
   font-family: 'Arial', sans-serif;
   border-radius: 8px;
@@ -51,4 +56,71 @@
   color: white;
   font-size: 10px;
   transform: rotate(90deg);
+}
+
+.menu {
+  display: flex;
+  min-width: 340px;
+  gap: 10px;
+}
+
+.menuItem {
+  color: rgb(165, 169, 180);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(49, 49, 50);
+  border-radius: 10px;
+  box-shadow: 0px 4px 27px 0px rgba(0, 0, 0, 0.49);
+  background: rgb(33, 33, 33);
+  cursor: pointer;
+}
+
+.selectGroup {
+  display: flex;
+  gap: 12px;
+  border-radius: 8px;
+}
+
+.select {
+  background-color: #2a2a2a;
+  color: #ccc !important;
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  padding: 0 12px;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.currency {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.Authorization {
+  width: 118px;
+  height: 40px;
+  border-radius: 999px;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(99, 2, 216) 10.526%, rgb(80, 48, 206) 95.395%);
 }
